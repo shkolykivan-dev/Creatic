@@ -425,7 +425,12 @@ body.hidden {
   }
 }
 @media screen {
+  .header__list{
+ overflow: auto;
+  }
+  .main__content{
    padding-bottom: 50vw;
+  }
 }
 @media (max-width: 768px) {
   .main .bg {
