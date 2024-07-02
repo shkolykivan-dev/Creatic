@@ -262,7 +262,6 @@ body.hidden {
     background: #465d97;
     padding: 30px 50px 130px;
     height: 100vh;
-    overflow: auto;
   }
   .header__list {
     display: -webkit-box;
