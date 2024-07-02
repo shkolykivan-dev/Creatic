@@ -1544,9 +1544,9 @@ body.hidden {
 }
 @media (max-width: 768px) {
   .header__list{
- overflow: auto;
+ overflow: scroll;
   }
   .main__content{
-   padding-bottom: 50vw;
+   padding-bottom: 50px;
   }
 }
