@@ -1,6 +1,7 @@
 
 const hiddenMenu = document.querySelector(".hidden-menu")
 const headerMenu = document.querySelector('.header__menu')
+const header = document.querySelector('.header')
 
 const activeStatus = {
     true: '0',
@@ -12,6 +13,7 @@ hiddenMenu.addEventListener("click", () => {
     const isMenuActive = hiddenMenu.classList.contains('active')
     headerMenu.style.right = activeStatus[isMenuActive]
     document.body.classList.toggle('hidden')//css: body.hidden{overflow: hidden;}
+    header.classList.toggle('active')
 })
 
 console.log(innerHeight, innerWidth)

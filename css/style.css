@@ -28,6 +28,8 @@ body.hidden {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 
 .container {
@@ -146,6 +148,7 @@ body.hidden {
   top: 0;
   left: 0;
   width: 100%;
+  max-width: 100%;
 }
 .header__row {
   height: 100px;
@@ -262,6 +265,7 @@ body.hidden {
     background: #465d97;
     padding: 30px 50px 130px;
     height: 100vh;
+    overflow: auto;
   }
   .header__list {
     display: -webkit-box;
@@ -271,6 +275,7 @@ body.hidden {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    overflow: auto;
   }
   .header .hidden-menu {
     display: block;
@@ -298,7 +303,6 @@ body.hidden {
     text-align: center;
     font-size: 36px;
     gap: 60px;
-    overflow: auto;
   }
 }
 @media (max-width: 576px) {
@@ -307,11 +311,11 @@ body.hidden {
   }
 }
 @media (max-height: 555px) {
-  .header{
- position: absolute;
-    overflow: hidden;
+  .header {
+    position: absolute;
   }
 }
+
 .main {
   padding-top: 100px;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(109, 149, 252, 0)), to(rgba(109, 149, 252, 0.2)));
@@ -417,7 +421,7 @@ body.hidden {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    padding-bottom: 80px;
+    padding-block: 10vh 5vh;
     padding-left: 15px;
   }
   .main__paragraph {
@@ -429,8 +433,10 @@ body.hidden {
     padding: calc(20vh - 120px) 0 0 45vw;
   }
 }
-
 @media (max-width: 768px) {
+  .main__content {
+    padding-bottom: 50px;
+  }
   .main .bg {
     padding: calc(30vh - 120px) 0 0 30vw;
   }
@@ -1547,5 +1553,3 @@ body.hidden {
             flex: 0 1 100%;
   }
 }
-
-
