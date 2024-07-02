@@ -298,6 +298,7 @@ body.hidden {
     text-align: center;
     font-size: 36px;
     gap: 60px;
+    overflow: auto;
   }
 }
 @media (max-width: 576px) {
@@ -1211,6 +1212,7 @@ body.hidden {
   }
   .feedback .comment__main-content {
     padding-right: 30px;
+    padding-bottom: 50px;
   }
   .feedback .comment__quotes {
     width: 6vw;
@@ -1542,10 +1544,4 @@ body.hidden {
   }
 }
 
-@media (max-width: 1200px) {
-    .header__list {
-        overflow: auto;
-    }.main__content{
-   padding-bottom: 50px;
-  }
-}
+
