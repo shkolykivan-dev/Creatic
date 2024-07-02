@@ -1541,17 +1541,11 @@ body.hidden {
             flex: 0 1 100%;
   }
 }
-@media (max-width: 768px) {
-  .header__list{
- overflow: scroll;
-  }
-  .main__content{
-   padding-bottom: 50px;
-  }
-}
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .header__list {
         overflow: auto;
-    }
+    }.main__content{
+   padding-bottom: 50px;
+  }
 }
