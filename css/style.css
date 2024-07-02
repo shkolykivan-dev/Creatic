@@ -1549,3 +1549,9 @@ body.hidden {
    padding-bottom: 50px;
   }
 }
+
+@media (max-width: 768px) {
+    .header__list {
+        overflow: auto;
+    }
+}
