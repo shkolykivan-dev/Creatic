@@ -306,7 +306,12 @@ body.hidden {
     padding-inline: 0px;
   }
 }
-
+@media (max-height: 555px) {
+  .header{
+ position: absolute;
+    overflow: hidden;
+  }
+}
 .main {
   padding-top: 100px;
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, rgba(109, 149, 252, 0)), to(rgba(109, 149, 252, 0.2)));
@@ -412,7 +417,7 @@ body.hidden {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     padding-left: 15px;
   }
   .main__paragraph {
