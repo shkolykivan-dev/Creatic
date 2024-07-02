@@ -424,6 +424,9 @@ body.hidden {
     padding: calc(20vh - 120px) 0 0 45vw;
   }
 }
+@media screen {
+   padding-bottom: 50vw;
+}
 @media (max-width: 768px) {
   .main .bg {
     padding: calc(30vh - 120px) 0 0 30vw;
