@@ -435,7 +435,7 @@ body.hidden {
 }
 @media (max-width: 768px) {
   .main__content {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
   }
   .main .bg {
     padding: calc(30vh - 120px) 0 0 30vw;
