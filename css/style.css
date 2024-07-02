@@ -412,7 +412,7 @@ body.hidden {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    padding-block: 10vh 5vh;
+    padding-block: 10vh;
     padding-left: 15px;
   }
   .main__paragraph {
