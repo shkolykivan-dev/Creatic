@@ -412,7 +412,7 @@ body.hidden {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
-    padding-block: 10vh;
+    padding-bottom: 50px;
     padding-left: 15px;
   }
   .main__paragraph {
@@ -1212,7 +1212,6 @@ body.hidden {
   }
   .feedback .comment__main-content {
     padding-right: 30px;
-    padding-bottom: 50px;
   }
   .feedback .comment__quotes {
     width: 6vw;
